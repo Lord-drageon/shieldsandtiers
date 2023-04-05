@@ -3,6 +3,8 @@ package net.lorddrageon.shieldsandtiers.mixin;
 
 import net.lorddrageon.shieldsandtiers.ShieldsAndTiers;
 import net.minecraft.client.gui.screen.TitleScreen;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.damage.DamageSource;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -15,3 +17,4 @@ public class ExampleMixin {
 		ShieldsAndTiers.LOGGER.info("This line is printed by an example mod mixin!");
 	}
 }
+

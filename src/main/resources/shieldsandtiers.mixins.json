@@ -6,7 +6,8 @@
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "ExampleMixin",
+    "ParryCheckMixin"
   ],
   "injectors": {
     "defaultRequire": 1
